@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon site e-commerce</title>
+  <style>
+    /* Ajoutez votre CSS personnalisé ici */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mon site e-commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Produits</a></li>
+        <li><a href="#">Panier</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nouveautés</h2>
+      <!-- Ajoutez ici une liste de vos nouveaux produits -->
+    </section>
+
+    <section>
+      <h2>Produits populaires</h2>
+      <!-- Ajoutez ici une liste de vos produits populaires -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon site e-commerce. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inscription</title>
+  <style>
+    /* Ajoutez votre CSS personnalisé ici */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inscription</h1>
+  </header>
+
+  <main>
+    <form>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required><br>
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required><br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <label for="password-confirm">Confirmez le mot de passe :</label>
+      <input type="password" id="password-confirm" name="password-confirm" required><br>
+
+      <input type="submit" value="S'inscrire">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon site e-commerce. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ma première page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Ma première page</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="page2.html">Deuxième page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenue sur ma première page</h2>
+      <p>Ceci est le contenu principal de ma première page.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Ma première page. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deuxième page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Deuxième page</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="page2.html">Deuxième page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenue sur la deuxième page</h2>
+      <p>Ceci est le contenu principal de la deuxième page.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Deuxième page. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Troisième page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Troisième page</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="page2.html">Deuxième page</a></li>
+        <li><a href="page3.html">Troisième page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Adresse e-mail</h2>
+      <p>Mon adresse e-mail : <a href="mailto:votre@email.com">
+      votre@email.com</a></p>
+    </section>
+
+    <section>
+      <h2>Commentaires</h2>
+      <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="commentaire">Commentaire :</label>
+        <textarea id="commentaire" name="commentaire" required></textarea><br>
+
+        <input type="submit" value="Envoyer">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Troisième page. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ma page HTML</title>
+</head>
+<body>
+  <h1>Titre de la page</h1>
+  <p>Ceci est un paragraphe.</p>
+  <p>Ceci est un autre paragraphe.</p>
+  <!-- Autres éléments HTML ici -->
+</body>
+</html>
+<img src="chemin/vers/image_livre.jpg" alt="Livre de commerce" width="300" height="400">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ma page avec notification de nouveaux cours</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Titre de la page</h1>
+  
+  <div id="notification" class="hide">
+    <p>Un nouveau cours est disponible !</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
